@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_color">#e6e6e6</color>
+
+    <!--TOP MENU COLORS-->
+    <color name="top_not_selected_color">#666666</color>
+    <color name="top_small_dot_color">#333333</color>
+
+
+    <!--ALARM SET PAGE COLORS-->
+    <color name="background_color">#1a1a1a</color>
+    <color name="wake_item_card_color">#333333</color>
+    <color name="wake_item_card_color_pressed">#1a1a1a</color>
+    <color name="bottom_sleep_button_color">#f2f2f2</color>
+
+
+    <color name="mini_selected_color">#44CCFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="bottom_button_color">#606163</color>
+    <color name="bottom_icon_color">#1a1a1a</color>
+    <color name="bottom_text_color">#1a1a1a</color>
+
+
+    <color name="sleep_mode_background">#000000</color>
+    <color name="alarm_time_color">#44CCFF</color>
+    <color name="go_to_sleep_color_fade">#000000</color>
+    <color name="wake_up_early_card_color">#1a1a1a</color>
+    <color name="cancel_sleep_card_color">#1a1a1a</color>
+    <color name="ring_screen_background">#FFFFFF</color>
+
+    <color name="sky_color">#bf5f00</color>
+    <color name="water_color">#0F084B</color>
+    <color name="sun_color">#fff65b</color>
+
+    <color name="ring_screen_color">#000000</color>
+    <color name="ring_text_color">#FFFFFF</color>
+    <color name="snooze_dismiss_color">#606163</color>
+
+
+
+    <color name="settings_subtitle_color">#606163</color>
+    <color name="settings_seperator_color">#4a4a4c</color>
+    <color name="settings_pressed_color">#161616</color>
+
+    <color name="dialog_title_color">#000000</color>
+
+    <color name="default_bar_color">#44CCFF</color>
+
+    <color name="bar_bg_color">#282828</color>
+
+
+    <color name="graph_stroke_color">#f2f2f2</color>
+    <color name="graph_date_color">#999999</color>
+    <color name="rating_date_color">#999999</color>
+    <color name="rating_segment_bg_color">#161616</color>
+    <color name="rating_list_bg_color">#1a1a1a</color>
+    <color name="spinner_popup_bg_color">#1a1a1a</color>
+
+
+    <color name="primary_dark">#000000</color>
+    <color name="primary">#1a1a1a</color>
+
+</resources>

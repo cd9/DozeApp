@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_1">#2982e2</color>
+    <color name="bar_2">#2996E2</color>
+    <color name="bar_3">#25A0E5</color>
+    <color name="bar_4">#22A9E7</color>
+    <color name="bar_5">#1EB3EA</color>
+    <color name="bar_6">#1ABCED</color>
+    <color name="bar_7">#16C6EF</color>
+    <color name="bar_8">#13CFF2</color>
+    <color name="bar_9">#0FD9F4</color>
+    <color name="bar_10">#0BE2F7</color>
+    <color name="bar_11">#07ECFA</color>
+    <color name="bar_12">#04F5FC</color>
+    <color name="bar_13">#00FFFF</color>
+
+</resources>

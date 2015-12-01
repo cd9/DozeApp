@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center|bottom">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/sleep_value"
+    android:fontFamily="sans-serif"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    tools:text="20h"/>
+<View
+    android:layout_width="40dp"
+    android:layout_height="50dp"
+    android:background="@drawable/bar_drawable"
+    android:id="@+id/sleep_bar"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"/>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/light_color"
+        android:id="@+id/seperator"/>
+        <TextView
+            android:id="@+id/day_of_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="@string/day_of_week"
+            android:textAllCaps="true"/>
+    <TextView
+        android:id="@+id/day_and_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9/18"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="@color/graph_date_color"/>
+</LinearLayout>

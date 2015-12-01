@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sleep_hour_graph_title"
+            android:textSize="25dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/light_color"/>
+
+            <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bar_bg"
+            android:padding="5dp">
+                <android.support.v7.widget.RecyclerView
+                android:id="@+id/bar_graph_view"
+                android:layout_width="wrap_content"
+                android:layout_height="275dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"/>
+            </FrameLayout>
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+                <View
+                    app:layout_widthPercent="92%"
+                    app:layout_marginLeftPercent="4%"
+                    app:layout_marginRightPercent="4%"
+                    android:layout_height="1dp"
+                    android:background="@color/settings_seperator_color"/>
+            </android.support.percent.PercentRelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/setting">
+                <TextView
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:textColor="@color/light_color"
+                    android:text="@string/date_range"/>
+                <Spinner
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/date_spinner"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+            </RelativeLayout>
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <View
+                    app:layout_widthPercent="92%"
+                    app:layout_marginLeftPercent="4%"
+                    app:layout_marginRightPercent="4%"
+                    android:layout_height="1dp"
+                    android:background="@color/settings_seperator_color"/>
+            </android.support.percent.PercentRelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

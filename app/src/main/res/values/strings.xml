@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">DozeApp</string>
+
+
+    <string name="custom_alarm">Set custom alarm</string>
+
+    <string name="set_time_for">Set alarm for </string>
+    <string name="bottom_button">ENTER SLEEP MODE</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="alarm_set_for">Alarm set for</string>
+    <string name="cancel_button">CANCEL SLEEP</string>
+    <string name="wake_up_early_button">WAKE UP EARLY</string>
+    <string name="go_to_sleep_message">Go to sleep..</string>
+    <string name="default_current_time_string">8:40 AM</string>
+
+    <string name="dialog_on_back_pressed">Would you like to cancel the current sleep session?\nYour current session will NOT be saved.</string>
+
+    <string name="sleep_review_title">End sleep session?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="write_review">Write a comment</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Yes</string>
+
+    <string name="sleep_mode_ticker">Doze: sleep mode enabled</string>
+    <string name="sleep_mode_title">Sleep mode enabled</string>
+    <string name="sleep_mode_text">Tap to return to Doze</string>
+
+    <string name="ring_alarm">Alarm</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+
+    <string name="snooze_setting_title">Snooze duration</string>
+    <string name="default_settings">5m</string>
+    <string name="sleep_time">Fall asleep time</string>
+    <string name="alarm_tone">Alarm tone</string>
+    <string name="help">How it works</string>
+    <string name="ring_mode_setting">Ring mode</string>
+
+    <string name="snooze_dialog_title">Snooze duration</string>
+    <string name="sleep_time_dialog_title">Snooze duration</string>
+    <string name="minutes">minutes</string>
+    <string name="set">Set</string>
+
+    <string name="fall_asleep_title">Fall asleep time</string>
+    <string name="fall_asleep_subtitle">How long does it take you to fall asleep?</string>
+
+    <string name="alarm_tone_title">Select an alarm tone</string>
+
+    <string name="ring_mode_title">Select a ring mode</string>
+    <string name="ring_only_mode">Ring only</string>
+    <string name="vibrate_only_mode">Vibrate only</string>
+    <string name="both_mode">Ring and vibrate</string>
+
+    <string name="custom_alarm_dialog_title">Set a custom alarm</string>
+    <string name="sleep_hour_graph_title">Hours of sleep</string>
+
+    <string name="rating_list_title">Ratings</string>
+
+    <string name="day_of_week">MON</string>
+    <string name="date_range">Range</string>
+</resources>
